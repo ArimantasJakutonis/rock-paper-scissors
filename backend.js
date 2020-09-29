@@ -2,10 +2,10 @@
 const buttons = document.querySelectorAll('button');
 
 // Used for displaying result message
-const container = document.querySelector('#container');
-const wins = document.querySelector('#wins');
-const loses = document.querySelector('#loses');
-const draws = document.querySelector('#draws');
+const container = document.getElementById('#container');
+const wins = document.getElementById('#wins');
+const loses = document.getElementById('#loses');
+const draws = document.getElementById('#draws');
 
 // Keeping track of the score
 let winsCount = 0;
